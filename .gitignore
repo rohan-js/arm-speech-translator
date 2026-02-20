@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+.gradle-local/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+
+# Android local
+.android-local/
+
+# Bundled model binaries (downloaded separately)
+app/src/main/assets/models/silero/
+app/src/main/assets/models/vosk/
+app/src/main/assets/models/whisper/
+app/src/main/assets/models/nllb/
+app/src/main/assets/models/piper/
+app/src/main/assets/models/espeak-ng-data/
+
+# ONNX Runtime native lib (25 MB, downloaded via Gradle)
+app/src/main/jniLibs/
+
+# Model export caches and artifacts
+models/.hf_cache/
+models/.pypackages/
+models/nllb_marian/
+models/artifacts/
+models/__pycache__/
+
+# Temp and cache dirs
+.tmp/
+.tmp_vosk/
+.cache/
+.hf-cache/
+
+# Checksums
+MODELS_SHA256.txt
+
+# OS
+.DS_Store
+Thumbs.db
